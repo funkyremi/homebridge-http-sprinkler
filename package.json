@@ -4,7 +4,7 @@
   "description": "Homebridge sprinkler control through HTTP",
   "license": "ISC",
   "keywords": [
-  "homebridge-plugin"
+    "homebridge-plugin"
   ],
   "engines": {
     "node": ">=4.3.2",
@@ -18,8 +18,8 @@
     "url": "git://github.com/goedh452/homebridge-http-sprinkler"
   },
   "dependencies": {
+    "lodash": "^4.17.15",
     "polling-to-event": ">=2.1.0",
-    "sync-request": "^2.1.0",
     "request": "^2.67.0"
   }
 }
